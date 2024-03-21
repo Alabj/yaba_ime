@@ -52,12 +52,13 @@
 
  .content .btn{
    display: inline-block;
-   padding:10px 30px;
+   padding:10px 40px;
    font-size: 20px;
    background: rgb(236, 221, 6);
    color:rgb(8, 8, 8);
    margin:0 5px;
    text-transform: capitalize;
+   border-radius: 5px;
 }
 
  .content .btn:hover{
@@ -199,7 +200,7 @@
    background-image: url(./code.pic/mainBG.png);
    margin-top: 43px;
    margin-left: 17rem;
-   width: 850px;
+   width: 900px;
    height: 550px;
    
 }
@@ -211,7 +212,7 @@
 .booking-container-form-div{
    display: flex;
    gap: 30px;
-   margin-top: 10px;
+   margin-top: 15px;
 }
 
 .booking-container-form p{
@@ -308,6 +309,22 @@
     text-align: center;
 }
 
+.div-card-contain{
+   display: grid;
+   column-gap: 20px;
+   padding: 20px;
+   grid-template-columns:  170px 170px;
+   background-image: url(./code.pic/Frame.png);
+}
+
+.div-form-card{
+   border: 2px solid black;
+   padding: 5px;
+   height: 200px;
+   border-radius: 5px;
+   display: flex;
+   text-align: center;
+}
 
 .mainpage-subDiv{
    background-image: url(./code.pic/mainBG.png);
