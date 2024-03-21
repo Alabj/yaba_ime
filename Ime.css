@@ -312,22 +312,38 @@
 .div-card-contain{
    display: grid;
    column-gap: 20px;
+   row-gap: 20px; 
    padding: 20px;
    grid-template-columns:  170px 170px;
-   background-image: url(./code.pic/Frame.png);
+   grid-template-rows: 170px 170px;
+  background-color: harlequin;
 }
 
 .div-form-card{
    border: 2px solid black;
    padding: 5px;
-   height: 200px;
+   /* height: 170px; */
+   text-transform: uppercase;
+   background-color: rgb(63, 225, 0);
+   color: white;
    border-radius: 5px;
    display: flex;
    text-align: center;
+   align-items: center;
+}
+
+.div-form-card-p{
+   margin:auto;
+}
+
+.div-form-card:hover {
+   background-color: rgb(104, 160, 104);
 }
 
 .mainpage-subDiv{
    background-image: url(./code.pic/mainBG.png);
+   background-color: white;
+   height: 640px;
 }
 .mainpage-sideNav-p{
    display: flex;
