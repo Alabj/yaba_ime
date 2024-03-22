@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Doctors Dashboard</title>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 70px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    border: 2px solid black;
+    width: 80%;
+    flex: 2;
+    margin-right: 20px;
+}
+
+.table-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.card-container {
+    flex: 10px 0 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card:hover {
+    background-color: #e9e9e9;
+}
+.mainpade-h3{
+    text-align:center;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <h3 class="mainpage-h3">HI, <span class="mainpage-h3" style="color: rgb(0,128,0);"> DOCTORS/NURSES/PHARMASICT</span></h3>
+            <h3 class="mainpage-h3">WELCOME BACK TO YOUR DASHBOARD</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date of Appointment</th>
+                        <th>Past Appointments</th>
+                        <th>Number of Patients</th>
+                        <th>Present Illness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-03-22</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>Cold and fever</td>
+                    </tr>
+                    <tr>
+                        <td>2024-03-23</td>
+                        <td>3</td>
+                        <td>8</td>
+                        <td>Stomach ache</td>
+                    </tr>
+                    <tr>
+                        <td>2024-03-24</td>
+                        <td>1</td>
+                        <td>12</td>
+                        <td>Headache</td>
+                    </tr>
+                    <tr>
+                        <td>2024-03-25</td>
+                        <td>4</td>
+                        <td>15</td>
+                        <td>Back pain</td>
+                    </tr>
+                    <tr>
+                        <td>2024-03-26</td>
+                        <td>0</td>
+                        <td>11</td>
+                        <td>Cough</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <a href="#">Doctor's Prescription</a>
+            </div>
+            <div class="card">
+                <a href="#">Vitals Check</a>
+            </div>
+            <div class="card">
+                <a href="#">Doctor's Confirmation</a>
+            </div>
+            <div class="card">
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

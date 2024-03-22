@@ -186,9 +186,9 @@
    padding:20px;
 }
 .Login-subDiv form{
-   background-image: url(./code.pic/mainBG.png);
+   background-image: url(./codepic/mainBG.png);
    width: 500px;
-   height: 400px;
+   height: 450px;
    padding:10px;
    border-radius: 5px;
    /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
@@ -206,32 +206,34 @@
 }
 
 .bookingForm-container{
-   background-color: green;
+   background-color: rgb(141,218,170);
    height: 640px;
    padding: 2px;
-   display: flex;
+   /* display: flex; */
 }
 
 .booking-container{
-   display: flex;
+   /* display: flex; */
    text-align: center;
    gap: 20px;
-   background-image: url(./code.pic/mainBG.png);
-   margin-top: 43px;
-   margin-left: 17rem;
+   background-image: url(./codepic/mainBG.png);
+   border-radius: 5px;
+   margin-top: 30px;
+   margin-left: 12rem;
    width: 900px;
-   height: 550px;
+   height: 590px;
    
 }
 
 .booking-container-form{
-   padding: 30px;
+   padding: 50px;
 }
 
 .booking-container-form-div{
    display: flex;
    gap: 30px;
-   margin-top: 15px;
+   margin-top: 10px;
+   margin-left: 50px;
 }
 
 .booking-container-form p{
@@ -247,7 +249,7 @@
 
 .booking-container-form input,
 .booking-container-form select{
-   width: 50%;
+   width: 70%;
    padding:15px 15px;
    font-size: 17px;
    margin:8px 0;
@@ -293,7 +295,7 @@
 }
 
 .regis-form-container{
-   background-image: url(./code.pic/mainBG.png);
+   background-image: url(./codepic/mainBG.png);
    width: 500px;
    padding: 20px;
    margin-left: 25rem;
@@ -324,27 +326,33 @@
 .div-form-side{
     display: flex;
     justify-content: center;
-    height: 640px;
+    height: 40px;
     text-align: center;
 }
 
 .div-card-contain{
-   display: grid;
+   /* display: grid;
    column-gap: 20px;
    row-gap: 20px; 
-   padding: 20px;
+   padding: 20px; */
+   height: 567px;
    grid-template-columns:  170px 170px;
    grid-template-rows: 170px 170px;
-  background-color: harlequin;
+  /* background-color: harlequin;*/
+  background-image: url(./codepic/Frame.png);
+
 }
 
 .div-form-card{
-   /* border: 2px solid black; */
+   align-items: center;
+   border: 2px solid black;
+   margin: auto;
+   margin-top: 10px;
+   width: 150px;
    padding: 5px;
-   /* height: 170px; */
+   height: 170px;
    text-transform: uppercase;
-   background-color: rgb(63, 225, 0);
-   color: white;
+   background-color: rgb(62, 214, 2);
    border-radius: 5px;
    display: flex;
    text-align: center;
@@ -360,11 +368,12 @@
 }
 
 .mainpage-subDiv{
-   background-image: url(./code.pic/mainBG.png);
+   background-image: url(./codepic/mainBG.png);
    background-color: white;
-   height: 640px;
+   height: 567px;
 }
-.mainpage-sideNav-p{
+
+.mainpage-sideNav a{
    display: flex;
    justify-content: end;
    padding: 20px; 
@@ -377,7 +386,6 @@
 }
 
 .mainpage-sub-h3{
-   background-color: rgb(63, 225, 0);
    font-size: 2rem;
    text-transform: uppercase;
    border-radius: 5px;
