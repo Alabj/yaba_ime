@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Style.css">
+        <!-- ===boxicons icons== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MainDashboard</title>
+</head>
+<body>
+    
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="../codepic/logss.png" alt="YCT Medical">
+                </span>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+            
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt-2 icon' ></i>
+                        <input type="search" placeholder="Search...">
+                    
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-calendar-alt icon' ></i>
+                            <span class="text nav-text">Appointments</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-network-chart icon'></i>
+                            <span class="text nav-text">Prescription</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Vital Check</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Log-Out</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="home">
+        <header class="home-header">
+            <div class="text"></div>
+            <div class="user-content">
+                <img src="../codepic/avatarIcon.jpg" alt="" >
+                <div class="">Oluwashola Daowdu</div>
+            </div>
+        </header>
+
+        <div class="card--container">
+            <h3 class="main--title">
+                Today's Data
+            </h3>
+            <div class="card--wrapper">
+                <div class="payment-card">
+                    <div class="card-header">
+                      <div class="amount">
+                        <span class="title">Total Student </span>
+                        <span class="value-amount">3</span>
+                      </div>
+                      <i class='bx bxs-user icons'></i>
+                    </div>
+                    <span class="card-detail">Total Number Of Student</span>
+                </div>
+
+                <div class="payment-card">
+                    <div class="card-header">
+                      <div class="amount">
+                        <span class="title">Total Appointments </span>
+                        <span class="value-amount">3</span>
+                      </div>
+                      <i class='bx bxs-user icons'></i>
+                    </div>
+                    <span class="card-detail">Total Appointments</span>
+                </div>
+
+                <div class="payment-card">
+                    <div class="card-header">
+                      <div class="amount">
+                        <span class="title">Total Vitals Inputed</span>
+                        <span class="value-amount">0</span>
+                      </div>
+                      <i class='bx bxs-user icons'></i>
+                    </div>
+                    <span class="card-detail">Total Vitals Inputed Today</span>
+                </div>
+
+                <div class="payment-card">
+                    <div class="card-header">
+                      <div class="amount">
+                        <span class="title">Total Rooms Available </span>
+                        <span class="value-amount">3</span>
+                      </div>
+                      <i class='bx bxs-user icons'></i>
+                    </div>
+                    <span class="card-detail">Rooms Booked Today</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Script.js"></script>
+</body>
+</html>

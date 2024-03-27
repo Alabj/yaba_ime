@@ -386,6 +386,14 @@
    background-color: white;
    height: 567px;
 }
+.mainpage-sideNav{
+   height: 100vh;
+   /* width: 300px; */
+   /* background-color: ; */
+   color: #fff;
+   transition: 0.5s;
+   overflow-y: auto;
+}
 
 .mainpage-sideNav a{
    display: flex;
@@ -393,6 +401,10 @@
    padding: 20px; 
    margin-top: 30px;
    color: black;
+}
+
+.mainpage-sideNav a:hover{
+   color: green;
 }
 
 .mainpage-h3{

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <!-- ===boxicons icons== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Appointments</title>
+</head>
+<body>
+
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="../codepic/logss.png" alt="YCT Medical">
+                </span>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+            
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt-2 icon' ></i>
+                        <input type="search" placeholder="Search...">
+                    
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-calendar-alt icon' ></i>
+                            <span class="text nav-text">Appointments</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-network-chart icon'></i>
+                            <span class="text nav-text">Prescription</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Vital Check</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Log-Out</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="home">
+        <header class="home-header">
+            <div class="text"></div>
+            <div class="user-content">
+                <img src="../codepic/avatarIcon.jpg" alt="" >
+                <div class="">Oluwashola Daowdu</div>
+            </div>
+        </header>
+
+        <div class="card--container">
+         <div class="card--flex">
+            <div class="">
+                <h3 class="appoint-title">Appointments</h3>
+                <div class="appoint-flex">
+                    <button>All</button>
+                    <button>Upcoming</button>
+                    <button>Previous</button>
+                </div>
+            </div>
+            <div class="card--flex-button">
+                <button>
+                    <i class='bx bx-plus' ></i>
+                    <span class="add">Add Appointment</span>
+                </button>
+                <button>
+                    <i class='bx bxs-file-import'></i>
+                    <span class="add">Import Data</span>
+                </button>
+            </div>
+         </div>
+            
+        </div>
+
+        <div class="appoint--chart">
+            <h3>Student</h3>
+            <div class="chart-middle">
+                <h3>Service</h3>
+                <h3>Charges</h3>
+                <h3>Payment Mode</h3>
+                <h3>Status</h3>
+            </div>
+            <h3>Action</h3>
+        </div>
+    </section>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
