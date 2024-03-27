@@ -174,36 +174,6 @@
    background-repeat: no-repeat;
 }
 
-.login-container{
-   background-color: green;
-   height: 640px;
-}
-
-.Login-subDiv{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding:20px;
-}
-.Login-subDiv form{
-   background-image: url(./codepic/mainBG.png);
-   width: 500px;
-   height: 450px;
-   padding:10px;
-   border-radius: 5px;
-   /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
-   text-align: center;
-}
-
-.Login-subDiv input,
-.Login-subDiv select{
-   width: 70%;
-   padding:15px 15px;
-   font-size: 17px;
-   margin:20px 0;
-   background: white;
-   border-radius: 5px;
-}
 
 .bookingForm-container{
    background-color: green;
