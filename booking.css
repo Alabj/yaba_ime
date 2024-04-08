@@ -38,12 +38,24 @@
     font-size: 15px;
 }
 .booking--form input, 
-.booking--form select,
-.booking--form button {
-    border-radius: 8px;
-    border: 1px solid #707070;
+.booking--form select{
+    border-radius: 5px;
+    border-bottom: 1px solid #707070;
     padding: 10px 15px;
     margin-top: 10px;
+}
+.booking--form button{
+    border-radius: 5px;
+    border-bottom: 1px solid #707070;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(0,128,0);
+}
+.booking--form button:hover{
+    background: #707070;
+    color: #fff;
 }
 .booking--form textarea{
     margin-top: 20px;
