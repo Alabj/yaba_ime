@@ -180,8 +180,12 @@ body{
     border-radius: 5px;
 }
 .main--title{
-    font-size: 15px;
-    color: green;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    font-size: 12px;
+    border-top: 1px solid #707070;
+    margin-top: 34px;
 }
 .Prescrip--container{
     margin-top: 20px;
