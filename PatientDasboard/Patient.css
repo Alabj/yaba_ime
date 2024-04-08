@@ -171,7 +171,11 @@ body{
     display: flex;
     align-items: center;
 }
-
+.user-content-text{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
 /* ====Card-Container== */
 .card--container{
     margin-top: 20px;
