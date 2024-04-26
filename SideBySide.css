@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+.reg-log-nav{
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.reg-log-nav a{
+    text-decoration-line: none;
+    color: black;
+}
+.reg-log-nav button{
+    width: 190px;
+    padding:10px 10px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 430px;
+    height: 100%;
+    position: relative;
+    margin: 1% auto;
+    /* border: 2px solid black; */
+    background: #fff;
+    padding: px;
+    overflow: hidden;
+}
+.button-box{
+    width: 320px;
+    margin: 35px auto;
+    position: relative;
+    border-bottom: 30px;
+   
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+}
+.input-group{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-label{
+    font-size: 15px;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 2px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.input-group p{
+    padding: 5px;
+    font-size: 17px;
+}
+.input-radio{
+    display: flex;
+   gap: 20px;
+}
+.input-radio label{
+    font-size: 14px;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    background: rgb(141,218,170);
+    outline: none;
+    border-radius: 30px;
+} 
+.chech-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 15px;
+    bottom: 68px;
+    position: absolute;
+}
+#Login{
+    left: 50px;
+}
+#Register{
+    left: 450px;
+}

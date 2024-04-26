@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register || Login </title>
+     <!-- font awesome icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./SideBySide.css">
+</head>
+<body>
+
+  <div>
+    <nav class="reg-log-nav" >
+        <div style="display: flex; justify-content: space-around; gap: 5px; align-items: center;">
+            <div href="./index.html">
+                <img src="./css/codepic/logss.png" alt="" class="" style="width: 8rem;" >
+            </div>
+            <div>
+                <button class=""><a href="Booking.html">Book appointment</a></button>
+                <button>About Us</button>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+            </div>
+            <form id="Login" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter Email" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log-in</button>
+            </form>
+
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter FullName" required>
+                <input type="email" class="input-field" placeholder="Enter Email" required>
+                <input type="text" class="input-field" placeholder="Enter Matric Number or Staff Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <p>Gender</p>
+                <div class="input-radio">
+                   <div>
+                    <input type="radio" name="Male" id="Male">
+                    <label for="radio">Male</label>
+                   </div>
+                  <div>
+                    <input type="radio" name="female" id="female">
+                    <label for="radio">Female</label>
+                  </div>
+                   <div>
+                    <input type="radio" name="other" id="other">
+                    <label for="radio">Other</label>
+                   </div>
+                </div>
+                <input type="checkbox" class="chech-box"><span>I agree to the terms and condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+      
+    </div>
+  </div>
+
+    <script>
+        var x= document.getElementById("Login")
+        var y= document.getElementById("Register")
+        var z= document.getElementById("btn")
+
+        function Register(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+
+        function Login(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0px"
+        }
+    </script>
+</body>
+</html>
