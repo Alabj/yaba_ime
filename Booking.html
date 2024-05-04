@@ -4,10 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./booking.css">
+    <style>
+    .booking-container{
+        display: flex;
+        /* border: 2px solid black ; */
+        border-radius: 8px;
+        margin: 30px 270px;
+        width: 140vh;
+        height: 80vh;
+    }
+
+    .booking-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        background: #006600;
+        padding: 20px;
+        border-radius: 8px;
+       
+
+    }
+    .booking-left img{
+        width: 9rem;
+    }
+    .booking-right{
+       width: 70%;
+       
+        border: 1px solid #006600 ;
+        border-radius: 8px;
+        padding: 20px;
+    }
+    .booking-right-p{
+        font-size: 20px;
+        font-weight: 700;
+        color: #006600;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+    .booking-form{
+        margin-top: 30px;
+    }
+
+    .input_field_1{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .input_field_1 label{
+        font-size: 15px;
+    }
+    .input_field_1 input{
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .input_field_2{
+        display: flex;
+        justify-content: space-around;
+        margin-right:0px;
+        margin-top: 14px;
+    }
+    
+    .input_field_2 label{
+        font-size: 15px;
+    }
+
+    .input_field_2 input{
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .input_field_2 select{
+        padding: 10px;
+        width: 12rem;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .input_field_2 option{
+        background: #006600;
+        color: #fff;
+    }
+    .input_field_3{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .input_field_3 textarea{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .booking-form button{
+        padding: 10px 15px ;
+        border-radius: 8px;
+        margin-left: 50px;
+        margin-top: 10px;
+        background: #006600;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .booking-form button:hover{
+        background-color: #03c03c;
+    }
+    </style>
+
+
     <title>Document</title>
 </head>
 <body>
-    <div class="bookingForm-container">
+    <nav class="reg-log-nav" >
+        <div style="display: flex; justify-content: space-between; gap: 5px; align-items: center;">
+            <div href="./index.html">
+                <img src="./css/codepic/logss.png" alt="" class="" style="width: 8rem;" >
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <button class=""><a href="Booking.html">Book appointment</a></button>
+                <button>About Us</button>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </nav>
+
+        <div>
+            <div class="booking-container">
+                <div class="booking-left">
+                   <img src="./css/codepic/Yaba_logo_3.png" alt="" class="">
+                </div>
+                <div class="booking-right">
+                    <p class="booking-right-p">Booking Your Appointment Here</p>
+                    <form action="" class="booking-form">
+                        <div class="input_field_1">
+                           <div class="">
+                            <label for="name">Enter Name*</label><br>
+                            <input type="text" name="name" placeholder="Enter Name">
+                           </div>
+                           <div>
+                            <label for="email">Enter Email*</label><br>
+                            <input type="email" name="name" placeholder="Enter Email">
+                           </div>
+                        </div>
+                        <div class="input_field_2">
+                            <div class="">
+                             <label for="name">Enter Stdent ID*</label><br>
+                             <input type="text" name="name" placeholder="Enter Student ID">
+                            </div>
+                            <div>
+                                <label for="designated-type">Staff Or Student</label><br>
+                             <select name="designated-type" id="">
+                                <option value="Student">Student</option>
+                                <option value="Staff">Staff</option>
+                             </select>
+                            </div>
+                         </div>
+                         <div class="input_field_3">
+                            <p>Describe Your Illness</p>
+                            <textarea name="textarea" id="" cols="50" rows="8" class=""></textarea>
+                        </div>
+                        <button class="">
+                            Book Appointment
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- <div class="bookingForm-container">
         <div class="bookingImg-container">
             <div class="" style="background-color: rgb(141,218,170) ; padding: 20px;">
                 <img src="./css/codepic/Yaba_logo_3.png" alt="" style="width: 10rem; margin-top: 90px;">
@@ -21,11 +188,11 @@
                         </div>
                         <div class="booking-container-form-div">
                             <input type="text" placeholder="Student Id or Staff Number" class="booking-container-form-input">
-                            <!-- <select name="designation_type">
+                             <select name="designation_type">
                                 <option value="student">Student</option>
                                 <option value="staff">Staff</option>
                              </select> -->
-                             <input type="text" name="past_illness" required placeholder="Past Illness" class="booking-container-form-input">
+                             <!-- <input type="text" name="past_illness" required placeholder="Past Illness" class="booking-container-form-input">
                         </div>
                             <div class="" style="margin-right: 10rem;">
                                 <p class="" style="padding: 10px;">Reason for appointment</p>
@@ -35,7 +202,7 @@
                   </form>
             </div>
         </div>
-   </div>
+   </div> --> 
 
 </body>
 </html>

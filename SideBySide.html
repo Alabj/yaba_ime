@@ -14,11 +14,11 @@
 
   <div>
     <nav class="reg-log-nav" >
-        <div style="display: flex; justify-content: space-around; gap: 5px; align-items: center;">
+        <div style="display: flex; justify-content: space-between; gap: 5px; align-items: center;">
             <div href="./index.html">
                 <img src="./css/codepic/logss.png" alt="" class="" style="width: 8rem;" >
             </div>
-            <div>
+            <div style="display: flex; gap: 20px;">
                 <button class=""><a href="Booking.html">Book appointment</a></button>
                 <button>About Us</button>
                 <button>Contact Us</button>
@@ -34,7 +34,7 @@
                 <button type="button" class="toggle-btn" onclick="Register()">Register</button>
             </div>
             <form id="Login" class="input-group">
-                <input type="text" class="input-field" placeholder="Enter Email" required>
+                <input type="text" class="input-field" placeholder="Enter Matric Number or Staff Id" required>
                 <input type="password" class="input-field" placeholder="Enter Password" required>
                 <input type="checkbox" class="chech-box"><span>Remember Password</span>
                 <button type="submit" class="submit-btn">Log-in</button>
@@ -43,29 +43,34 @@
             <form id="Register" class="input-group">
                 <input type="text" class="input-field" placeholder="Enter FullName" required>
                 <input type="email" class="input-field" placeholder="Enter Email" required>
-                
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+               <input type="text" class="input-field" placeholder="Enter Password" required>
+               <input type="text" class="input-field" placeholder="Confirm Password" required>
+                <input type="text" class="input-field" placeholder="Enter Matric Number or Staff Id" required>
                 <p>Gender</p>
                 <div class="input-radio">
                    <div>
-                    <input type="radio" name="Male" id="Male">
+                    <input type="radio" name="Gender" id="Male">
                     <label for="radio">Male</label>
                    </div>
                   <div>
-                    <input type="radio" name="female" id="female">
+                    <input type="radio" name="Gender" id="female">
                     <label for="radio">Female</label>
                   </div>
                    <div>
-                    <input type="radio" name="other" id="other">
+                    <input type="radio" name="other" id="Gender">
                     <label for="radio">Other</label>
                    </div>
                 </div>
-                <label class="select-label" for="select">Select Role</label>
-                <select name="" id="">
-                    <option value="">Patient</option>
-                    <option value="">Staff</option>
-                </select>
-                <input type="text" class="input-field" placeholder="Enter Matric Number or Staff Id" required>
+                <p>Date of birth</p>
+                <input type="date" class="input-field" name="date" id="Date-of-birth">
+                <p>Session</p>
+                <div class="input-radio">
+                
+                     <input type="radio" name="Session" id="Fulltime">
+                     <label for="radio">Full time</label>
+                     <input type="radio" name="Session" id="Parttime">
+                     <label for="radio">Part time</label>
+                 </div>
                 <input type="checkbox" class="chech-box"><span>I agree to the terms and condition</span>
                 <button type="submit" class="submit-btn">Register</button>
                 
